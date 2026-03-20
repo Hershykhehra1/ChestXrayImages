@@ -65,6 +65,9 @@ ALL MODELS USE A FIXED RANDOM SEED OF 0 FOR REPRODUCIBILITY
  ### Confusion Matrices and per class metrics
  Once we have printed the above information for both models, the following cell cells, generate the confusion, matrixes, and classification report for each model
 
+ ### KNN Models
+ After KNN is run, the accuracy for each k-value, distance metric, and runtime are printed for both the original dataset, and the dataset with PCA applied. 
+
 ## Expected Outputs
 
 When you run all of the cells in the notebook, you should see the following:
