@@ -89,9 +89,9 @@ CNN2 Test Loss: 0.XXXX | CNN2 Test Acc: 0.XXXX
 
 ### Charts generated:
 
-MLP1 vs MLP2 Loss per Epoch
-MLP1 vs MLP2 Accuracy per Epoch
-CNN1 vs CNN2 Loss per Epoch
-CNN1 vs CNN2 Accuracy per Epoch
-Confusion matrix for each of the 4 models
-KNN accuracy and inference time charts
+- MLP1 vs MLP2 Loss per Epoch
+- MLP1 vs MLP2 Accuracy per Epoch
+- CNN1 vs CNN2 Loss per Epoch
+- CNN1 vs CNN2 Accuracy per Epoch
+- Confusion matrix for each of the 4 models
+- KNN accuracy and inference time charts
