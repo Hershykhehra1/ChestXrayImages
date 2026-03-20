@@ -22,13 +22,15 @@ Install all of the required dependencies by running:
 
 1. Clone or download this repository
 2. Download the dataset from the link if not included and place it in the data/ folder, the folder structure should look like this:
-   `
+   ```
 project/
-├── main.ipynb
+├── main.ipynb       # Main notebook with all models and experiments
+├── README.md        # This file
 └── data/
     ├── COVID/
     ├── NORMAL/
-    └── PNEUMONIA/`
+    └── PNEUMONIA/
+```
    
 4. Install the required dependencies
 5. Open the Jupyter Notebook labeled main.ipynb
@@ -67,28 +69,29 @@ ALL MODELS USE A FIXED RANDOM SEED OF 0 FOR REPRODUCIBILITY
 When you run all of the cells in the notebook, you should see the following:
 
 
-### Data Loading
-`Train: 3659 | Test: 1569`
-
-
-### Training output per epoch (example)
-`Epoch 1/20 | Loss: 0.5300 | Acc: 0.8700
+**Data Loading**
+```
+Train: 3659 | Test: 1569
+```
+ 
+**Training output per epoch (example)**
+```
+Epoch 1/20 | Loss: 0.5300 | Acc: 0.8700
 Epoch 2/20 | Loss: 0.4800 | Acc: 0.9100
 ...
-Epoch 20/20 | Loss: 0.3500 | Acc: 0.9800`
-
-
-### Test evaluation output (example)
-`
+Epoch 20/20 | Loss: 0.3500 | Acc: 0.9800
+```
+ 
+**Test evaluation output (example)**
+```
 MLP1 Test Loss: 0.XXXX | MLP1 Test Acc: 0.XXXX
 MLP2 Test Loss: 0.XXXX | MLP2 Test Acc: 0.XXXX
 CNN1 Test Loss: 0.XXXX | CNN1 Test Acc: 0.XXXX
 CNN2 Test Loss: 0.XXXX | CNN2 Test Acc: 0.XXXX
-`
+```
 
 
-### Charts generated:
-
+**Charts generated:**
 - MLP1 vs MLP2 Loss per Epoch
 - MLP1 vs MLP2 Accuracy per Epoch
 - CNN1 vs CNN2 Loss per Epoch
