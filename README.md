@@ -1,4 +1,4 @@
-# NaturalScenesClassification
+# COVID19 + PNEUMONIA + NORMAL Chest X-Ray Image Dataset
 
 ## Project Overview
 
