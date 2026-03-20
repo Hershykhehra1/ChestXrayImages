@@ -22,7 +22,7 @@ Install all of the required dependencies by running:
 
 1. Clone or download this repository
 2. Download the dataset from the link if not included and place it in the data/ folder, the folder structure should look like this:
-   
+```text
 project/
 ├── main.ipynb       # Main notebook with all models and experiments
 ├── README.md        # This file
@@ -30,6 +30,7 @@ project/
     ├── COVID/
     ├── NORMAL/
     └── PNEUMONIA/
+```
 
    
 4. Install the required dependencies
